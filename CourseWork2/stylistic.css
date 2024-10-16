@@ -1,0 +1,39 @@
+
+.navbar-nav li a{
+    color: white;
+}
+
+.navbar-toggler{
+    outline: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 600px){
+
+    .navbar-nav li a{
+        size: 20px;
+    }
+
+    #navbarNav{
+    padding: 10px;
+    border-radius: 25px;
+}
+}
+
+/*words*/
+h1, p{
+    opacity: 0.8;
+}
+p{
+    padding: 10px;
+}
+span{
+    color:rgb(173, 8, 8);
+}
+
+/*loginform*/
+h2{
+    margin: 0;
+    justify-content: center;
+}
+
